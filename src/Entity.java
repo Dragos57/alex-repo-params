@@ -8,8 +8,8 @@ public class Entity {
 
     public Entity(Long id) {
         this.id = id;
-        this.field1 = "field " + new Random().nextDouble();
-        this.field2 = "field " + new Random().nextDouble();
+        this.field1 = "field " + new Random().nextInt(26);
+        this.field2 = "field " + new Random().nextInt(26);
     }
 
     @Override
